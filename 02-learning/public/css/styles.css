@@ -1,0 +1,24 @@
+body {
+  background-color: #040714;
+  color: white;
+}
+
+.settings {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px 40px;
+}
+
+form.settings lable {
+  text-align: right;
+}
+
+button.secondButton {
+  position: relative;
+  left: 120px;
+}
+
+.secondButton {
+  margin-top: 10px;
+}

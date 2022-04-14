@@ -1,0 +1,8 @@
+<%- include("./partials/header.ejs") -%>
+<h1>Home</h1>
+<p><%= homeData %></p>
+<% bodyContent.forEach(element => { %>
+  <h1><%= element.title %></h1>
+  <p><%= element.body%></p>
+<% }); %>
+<%- include("./partials/footer.ejs") -%>
